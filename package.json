@@ -1,0 +1,24 @@
+{
+  "name": "optoro-js-coding-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/vending-machine.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {},
+  "resolutions": {},
+  "keywords": [],
+  "dependencies": {
+    "jest": "27.4.7"
+  },
+  "jest": {
+    "moduleFileExtensions": ["js"],
+    "rootDir": "src",
+    "testRegex": ".*\\.spec\\.js$",
+    "collectCoverageFrom": ["**/*.js"],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node",
+    "testTimeout": 60000
+  }
+}
