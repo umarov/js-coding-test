@@ -1,1 +1,1 @@
-export class VendorMachine {}
+export class VendingMachine {}
