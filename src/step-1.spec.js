@@ -25,7 +25,7 @@ describe("Vending Machine Step 1", () => {
 
   describe("stock", () => {
     it("shows the correct value for in stock", () => {
-      expect(machine.inStock()).toEqual(0);
+      expect(machine.inStock).toEqual(0);
     });
   });
 });
